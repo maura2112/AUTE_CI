@@ -17,9 +17,15 @@ public static class WebDriverFactory
     private static ChromeOptions GetChromeOptions()
     {
         var options = new ChromeOptions();
-        options.AddArgument("--start-maximized");
-        options.AddArgument("--disable-infobars");
+        options.AddArgument("--headless=new");
+        options.AddArgument("--no-sandbox");
+        options.AddArgument("--disable-dev-shm-usage");
+        options.AddArgument("--disable-gpu");
         options.AddArgument("--disable-extensions");
+        options.AddArgument("--window-size=1920,1080");
+
+        string uniqueUserDataDir = Path.Combine(Path.GetTempPath(), "chrome-profile-" + Guid.NewGuid());
+        options.AddArgument($"--user-data-dir={uniqueUserDataDir}");
         return options;
     }
 }
