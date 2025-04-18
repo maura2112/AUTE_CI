@@ -102,3 +102,4 @@
 /home/maura/R2E_AUTE/AUTE_CI/obj/Debug/net8.0/TestProject2.pdb
 /home/maura/R2E_AUTE/AUTE_CI/obj/Debug/net8.0/TestProject2.genruntimeconfig.cache
 /home/maura/R2E_AUTE/AUTE_CI/obj/Debug/net8.0/ref/TestProject2.dll
+/home/maura/R2E_AUTE/AUTE_CI/bin/Debug/net8.0/Ultilities/testconfig.json

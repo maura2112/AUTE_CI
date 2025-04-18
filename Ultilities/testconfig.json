@@ -1,0 +1,8 @@
+{
+    "baseUrl": "https://demoqa.com",
+    "browser": "chrome",
+    "implicitWait": 5,
+    "screenshotPath": "TestResults/Screenshots",
+    "reportPath": "TestResults/Reports"
+  }
+  
