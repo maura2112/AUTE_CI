@@ -17,7 +17,7 @@ public static class WebDriverFactory
     private static ChromeOptions GetChromeOptions()
     {
         var options = new ChromeOptions();
-        options.AddArgument("--headless=new");
+        // options.AddArgument("--headless=new");
         options.AddArgument("--no-sandbox");
         options.AddArgument("--disable-dev-shm-usage");
         options.AddArgument("--disable-gpu");

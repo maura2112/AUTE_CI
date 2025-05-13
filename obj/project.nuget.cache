@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Q2JNpGuv6lQGxvHlBWyoQsmJSrEo7FAmwQN9We2Y0O2T3wHAKGO3O+IMiIXMWd9hVJvuqCOgAx5Oy5vAa1BqWg==",
+  "dgSpecHash": "Fw3EqToY1szwFOkwuT5aegByGtIhAvmEDX7wnJIXRUEDJ/zaeupVMLKdVPSI/0VaISef0uKFSq9hO159zRMmWg==",
   "success": true,
   "projectFilePath": "/home/maura/R2E_AUTE/AUTE_CI/TestProject2.csproj",
   "expectedPackageFiles": [
+    "/home/maura/.nuget/packages/bogus/35.6.3/bogus.35.6.3.nupkg.sha512",
     "/home/maura/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
+    "/home/maura/.nuget/packages/fluentassertions/8.2.0/fluentassertions.8.2.0.nupkg.sha512",
     "/home/maura/.nuget/packages/microsoft.codecoverage/17.6.0/microsoft.codecoverage.17.6.0.nupkg.sha512",
     "/home/maura/.nuget/packages/microsoft.net.test.sdk/17.6.0/microsoft.net.test.sdk.17.6.0.nupkg.sha512",
     "/home/maura/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
@@ -16,6 +18,7 @@
     "/home/maura/.nuget/packages/nunit/3.13.3/nunit.3.13.3.nupkg.sha512",
     "/home/maura/.nuget/packages/nunit.analyzers/3.6.1/nunit.analyzers.3.6.1.nupkg.sha512",
     "/home/maura/.nuget/packages/nunit3testadapter/4.2.1/nunit3testadapter.4.2.1.nupkg.sha512",
+    "/home/maura/.nuget/packages/restsharp/112.1.1-alpha.0.4/restsharp.112.1.1-alpha.0.4.nupkg.sha512",
     "/home/maura/.nuget/packages/selenium.support/4.31.0/selenium.support.4.31.0.nupkg.sha512",
     "/home/maura/.nuget/packages/selenium.webdriver/4.31.0/selenium.webdriver.4.31.0.nupkg.sha512",
     "/home/maura/.nuget/packages/selenium.webdriver.chromedriver/136.0.7103.3300-beta/selenium.webdriver.chromedriver.136.0.7103.3300-beta.nupkg.sha512",

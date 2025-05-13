@@ -2,10 +2,36 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "Bogus/35.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Bogus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Bogus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "coverlet.collector/6.0.0": {
         "type": "package",
         "build": {
           "build/netstandard1.0/coverlet.collector.targets": {}
+        }
+      },
+      "FluentAssertions/8.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Microsoft.CodeCoverage/17.6.0": {
@@ -369,6 +395,19 @@
           "build/netcoreapp2.1/NUnit3TestAdapter.props": {}
         }
       },
+      "RestSharp/112.1.1-alpha.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Selenium.Support/4.31.0": {
         "type": "package",
         "dependencies": {
@@ -423,6 +462,27 @@
     }
   },
   "libraries": {
+    "Bogus/35.6.3": {
+      "sha512": "+5omfZWy8gOcbpc48vKfMI4h/ecbdf3NQm6xCl3zMbaP4J3rMMm5h3kPFeIWBgt4mbz6YY0eeZDLR/6yv1khKw==",
+      "type": "package",
+      "path": "bogus/35.6.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "bogus.128.png",
+        "bogus.35.6.3.nupkg.sha512",
+        "bogus.nuspec",
+        "lib/net40/Bogus.dll",
+        "lib/net40/Bogus.xml",
+        "lib/net6.0/Bogus.dll",
+        "lib/net6.0/Bogus.xml",
+        "lib/netstandard1.3/Bogus.dll",
+        "lib/netstandard1.3/Bogus.xml",
+        "lib/netstandard2.0/Bogus.dll",
+        "lib/netstandard2.0/Bogus.xml"
+      ]
+    },
     "coverlet.collector/6.0.0": {
       "sha512": "tW3lsNS+dAEII6YGUX/VMoJjBS1QvsxqJeqLaJXub08y1FSjasFPtQ4UBUsudE9PNrzLjooClMsPtY2cZLdXpQ==",
       "type": "package",
@@ -474,6 +534,31 @@
         "coverlet-icon.png",
         "coverlet.collector.6.0.0.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "FluentAssertions/8.2.0": {
+      "sha512": "Gh4jkECcrR0i17ofCVqsiVz2+lxC+p5TYFPCrbZFi7eQQWGEZhvCDwvhycBKX1Kmtbd+H2CW/ugW7wdH9Br9NQ==",
+      "type": "package",
+      "path": "fluentassertions/8.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "FluentAssertions.png",
+        "LICENSE",
+        "fluentassertions.8.2.0.nupkg.sha512",
+        "fluentassertions.nuspec",
+        "lib/net47/FluentAssertions.dll",
+        "lib/net47/FluentAssertions.pdb",
+        "lib/net47/FluentAssertions.xml",
+        "lib/net6.0/FluentAssertions.dll",
+        "lib/net6.0/FluentAssertions.pdb",
+        "lib/net6.0/FluentAssertions.xml",
+        "lib/netstandard2.0/FluentAssertions.dll",
+        "lib/netstandard2.0/FluentAssertions.pdb",
+        "lib/netstandard2.0/FluentAssertions.xml",
+        "lib/netstandard2.1/FluentAssertions.dll",
+        "lib/netstandard2.1/FluentAssertions.pdb",
+        "lib/netstandard2.1/FluentAssertions.xml"
       ]
     },
     "Microsoft.CodeCoverage/17.6.0": {
@@ -995,6 +1080,29 @@
         "nunit3testadapter.nuspec"
       ]
     },
+    "RestSharp/112.1.1-alpha.0.4": {
+      "sha512": "tAhvIS/HApzAScDDXw/WalkSMzVtu3bcmkbLdj9R+K1n+Zhenkos7QmqYQWfz9VuNY1bBljnyw7IZWohkG4S2g==",
+      "type": "package",
+      "path": "restsharp/112.1.1-alpha.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net471/RestSharp.dll",
+        "lib/net471/RestSharp.xml",
+        "lib/net48/RestSharp.dll",
+        "lib/net48/RestSharp.xml",
+        "lib/net8.0/RestSharp.dll",
+        "lib/net8.0/RestSharp.xml",
+        "lib/net9.0/RestSharp.dll",
+        "lib/net9.0/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.112.1.1-alpha.0.4.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
+      ]
+    },
     "Selenium.Support/4.31.0": {
       "sha512": "dAGFDnl5rGc7eG12PJfrEU25+LMWUkBcCzp9VsJh+L4xfa6aQ7/7KSnCWDJUxiK9CjWgWJGkNYWVR7OawGvb1Q==",
       "type": "package",
@@ -1079,11 +1187,14 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Bogus >= 35.6.3",
+      "FluentAssertions >= 8.2.0",
       "Microsoft.NET.Test.Sdk >= 17.6.0",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.6.1",
       "NUnit3TestAdapter >= 4.2.1",
       "Newtonsoft.Json >= 13.0.3",
+      "RestSharp >= 112.1.1-alpha.0.4",
       "Selenium.Support >= 4.31.0",
       "Selenium.WebDriver >= 4.31.0",
       "Selenium.WebDriver.ChromeDriver >= 136.0.7103.3300-beta",
@@ -1127,6 +1238,14 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Bogus": {
+            "target": "Package",
+            "version": "[35.6.3, )"
+          },
+          "FluentAssertions": {
+            "target": "Package",
+            "version": "[8.2.0, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.6.0, )"
@@ -1146,6 +1265,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"
+          },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[112.1.1-alpha.0.4, )"
           },
           "Selenium.Support": {
             "target": "Package",

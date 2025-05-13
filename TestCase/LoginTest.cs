@@ -2,6 +2,7 @@
 using NUnit.Framework;
 using OpenQA.Selenium.Support.UI;
 
+[TestFixture]
 public class LoginTest : BaseTest
 {
     // [Test]

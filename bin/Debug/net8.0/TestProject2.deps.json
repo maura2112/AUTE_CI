@@ -8,11 +8,14 @@
     ".NETCoreApp,Version=v8.0": {
       "TestProject2/1.0.0": {
         "dependencies": {
+          "Bogus": "35.6.3",
+          "FluentAssertions": "8.2.0",
           "Microsoft.NET.Test.Sdk": "17.6.0",
           "NUnit": "3.13.3",
           "NUnit.Analyzers": "3.6.1",
           "NUnit3TestAdapter": "4.2.1",
           "Newtonsoft.Json": "13.0.3",
+          "RestSharp": "112.1.1-alpha.0.4",
           "Selenium.Support": "4.31.0",
           "Selenium.WebDriver": "4.31.0",
           "Selenium.WebDriver.ChromeDriver": "136.0.7103.3300-beta",
@@ -22,7 +25,23 @@
           "TestProject2.dll": {}
         }
       },
+      "Bogus/35.6.3": {
+        "runtime": {
+          "lib/net6.0/Bogus.dll": {
+            "assemblyVersion": "35.6.3.0",
+            "fileVersion": "35.6.3.0"
+          }
+        }
+      },
       "coverlet.collector/6.0.0": {},
+      "FluentAssertions/8.2.0": {
+        "runtime": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "assemblyVersion": "8.2.0.0",
+            "fileVersion": "8.2.0.0"
+          }
+        }
+      },
       "Microsoft.CodeCoverage/17.6.0": {
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
@@ -319,6 +338,14 @@
       },
       "NUnit.Analyzers/3.6.1": {},
       "NUnit3TestAdapter/4.2.1": {},
+      "RestSharp/112.1.1-alpha.0.4": {
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "assemblyVersion": "112.1.1.0",
+            "fileVersion": "112.1.1.0"
+          }
+        }
+      },
       "Selenium.Support/4.31.0": {
         "dependencies": {
           "Selenium.WebDriver": "4.31.0"
@@ -348,12 +375,26 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Bogus/35.6.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+5omfZWy8gOcbpc48vKfMI4h/ecbdf3NQm6xCl3zMbaP4J3rMMm5h3kPFeIWBgt4mbz6YY0eeZDLR/6yv1khKw==",
+      "path": "bogus/35.6.3",
+      "hashPath": "bogus.35.6.3.nupkg.sha512"
+    },
     "coverlet.collector/6.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-tW3lsNS+dAEII6YGUX/VMoJjBS1QvsxqJeqLaJXub08y1FSjasFPtQ4UBUsudE9PNrzLjooClMsPtY2cZLdXpQ==",
       "path": "coverlet.collector/6.0.0",
       "hashPath": "coverlet.collector.6.0.0.nupkg.sha512"
+    },
+    "FluentAssertions/8.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Gh4jkECcrR0i17ofCVqsiVz2+lxC+p5TYFPCrbZFi7eQQWGEZhvCDwvhycBKX1Kmtbd+H2CW/ugW7wdH9Br9NQ==",
+      "path": "fluentassertions/8.2.0",
+      "hashPath": "fluentassertions.8.2.0.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/17.6.0": {
       "type": "package",
@@ -431,6 +472,13 @@
       "sha512": "sha512-kgH8VKsrcZZgNGQXRpVCrM7TnNz9li3b/snH+YmnXUNqsaWa1Xw9EQWHpbzq4Li2FbTjTE/E5N5HdLNXzZ8BpQ==",
       "path": "nunit3testadapter/4.2.1",
       "hashPath": "nunit3testadapter.4.2.1.nupkg.sha512"
+    },
+    "RestSharp/112.1.1-alpha.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tAhvIS/HApzAScDDXw/WalkSMzVtu3bcmkbLdj9R+K1n+Zhenkos7QmqYQWfz9VuNY1bBljnyw7IZWohkG4S2g==",
+      "path": "restsharp/112.1.1-alpha.0.4",
+      "hashPath": "restsharp.112.1.1-alpha.0.4.nupkg.sha512"
     },
     "Selenium.Support/4.31.0": {
       "type": "package",

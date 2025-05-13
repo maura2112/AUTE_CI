@@ -7,10 +7,13 @@
 /home/maura/R2E_AUTE/AUTE_CI/bin/Debug/net8.0/nunit.engine.api.dll
 /home/maura/R2E_AUTE/AUTE_CI/bin/Debug/net8.0/nunit.engine.core.dll
 /home/maura/R2E_AUTE/AUTE_CI/bin/Debug/net8.0/testcentric.engine.metadata.dll
+/home/maura/R2E_AUTE/AUTE_CI/bin/Debug/net8.0/Ultilities/testconfig.json
 /home/maura/R2E_AUTE/AUTE_CI/bin/Debug/net8.0/TestProject2.deps.json
 /home/maura/R2E_AUTE/AUTE_CI/bin/Debug/net8.0/TestProject2.runtimeconfig.json
 /home/maura/R2E_AUTE/AUTE_CI/bin/Debug/net8.0/TestProject2.dll
 /home/maura/R2E_AUTE/AUTE_CI/bin/Debug/net8.0/TestProject2.pdb
+/home/maura/R2E_AUTE/AUTE_CI/bin/Debug/net8.0/Bogus.dll
+/home/maura/R2E_AUTE/AUTE_CI/bin/Debug/net8.0/FluentAssertions.dll
 /home/maura/R2E_AUTE/AUTE_CI/bin/Debug/net8.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
 /home/maura/R2E_AUTE/AUTE_CI/bin/Debug/net8.0/Microsoft.TestPlatform.CoreUtilities.dll
 /home/maura/R2E_AUTE/AUTE_CI/bin/Debug/net8.0/Microsoft.TestPlatform.PlatformAbstractions.dll
@@ -23,6 +26,7 @@
 /home/maura/R2E_AUTE/AUTE_CI/bin/Debug/net8.0/Newtonsoft.Json.dll
 /home/maura/R2E_AUTE/AUTE_CI/bin/Debug/net8.0/NuGet.Frameworks.dll
 /home/maura/R2E_AUTE/AUTE_CI/bin/Debug/net8.0/nunit.framework.dll
+/home/maura/R2E_AUTE/AUTE_CI/bin/Debug/net8.0/RestSharp.dll
 /home/maura/R2E_AUTE/AUTE_CI/bin/Debug/net8.0/WebDriver.Support.dll
 /home/maura/R2E_AUTE/AUTE_CI/bin/Debug/net8.0/WebDriver.dll
 /home/maura/R2E_AUTE/AUTE_CI/bin/Debug/net8.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll
@@ -102,4 +106,3 @@
 /home/maura/R2E_AUTE/AUTE_CI/obj/Debug/net8.0/TestProject2.pdb
 /home/maura/R2E_AUTE/AUTE_CI/obj/Debug/net8.0/TestProject2.genruntimeconfig.cache
 /home/maura/R2E_AUTE/AUTE_CI/obj/Debug/net8.0/ref/TestProject2.dll
-/home/maura/R2E_AUTE/AUTE_CI/bin/Debug/net8.0/Ultilities/testconfig.json
