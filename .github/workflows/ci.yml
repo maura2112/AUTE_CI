@@ -48,7 +48,7 @@ jobs:
 
       - name: Run Playwright tests
         run: npx playwright test --grep "@SmokeTest"
-        working-directory: entor-platform/AutomationTest
+        working-directory: mentor-platform/AutomationTest
 
       - name: Publish JUnit test results
         if: always()
