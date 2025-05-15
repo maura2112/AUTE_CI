@@ -12,7 +12,7 @@ export default defineConfig({
   use: {
     baseURL: 'https://connectingmentor.netlify.app',
     trace: 'retain-on-failure',
-    headless: false,
+    headless: true,
     testIdAttribute: '',
     actionTimeout: 10000,
     extraHTTPHeaders: {
