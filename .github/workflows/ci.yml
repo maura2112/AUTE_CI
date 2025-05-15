@@ -45,6 +45,11 @@ jobs:
       - name: Install Playwright Browsers and System Dependencies
         run: npx playwright install --with-deps
         working-directory: mentor-platform/AutomationTest
+        
+      - name: Install dotenv
+        run: npm install --save-dev @types/dotenv
+        working-directory: mentor-platform/AutomationTest
+  
 
       - name: Run Playwright tests
         run: npx playwright test --grep "@SmokeTest"
